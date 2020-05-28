@@ -1,0 +1,32 @@
+#include<stdio.h>
+void main()
+{
+int num,res=0;
+printf("Enter a number:\n");
+scanf("%d",num);
+res=prime(num);
+if(res==0)
+{
+printf("Is a prime number\n",num);
+}
+else
+{
+printf(Is not a prime number\n",num);
+}
+getch();
+}
+int main(int a)
+{
+int i;
+for(i=2;i<=a/2;i++)
+{
+if(a%i!=0)
+continue;
+else
+return 1;
+}
+return 0;
+}
+
+/*Enter a  number =29
+Is a prime  number  */
