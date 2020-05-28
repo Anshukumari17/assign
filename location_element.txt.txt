@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+int array[100],search,a,b;
+printf("Enter the number of element in array\n");
+scanf("%d",&a);
+printf("Enter %d integer\n",b);
+for(a=0;a<b;a++)
+{
+scanf("%d",&array[c]);
+printf("Enter a number to search \n");
+scanf("%d",search);
+for(a=0;a<b;a++)
+{
+if(array[a]==search)
+{
+printf("%d is present at location %d\n",search,a+1);
+break;
+}
+}
+if(a==b)
+printf("\n %d It is not present in the array",search);
+return0;
+}
+
+/* Enter the number of element in array=5
+Enter 5 numbers=5,6,7,8,9
+Enter the number of search=6
+6 is present at location 2 */  
