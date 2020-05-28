@@ -15,3 +15,7 @@ num=num/2;
 }
 printf("\n The binary of %d is %d\n\n",decimal,binary);
 }
+
+
+/* Enter a decimal number=169
+Its binary equivalent=10101001 */
