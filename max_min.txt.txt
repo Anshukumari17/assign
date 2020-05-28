@@ -1,0 +1,38 @@
+#include <stdio.h>
+#define max 10
+{
+int *max(int arr[],int v);
+int main()
+{
+int arr[max];
+int n,i,*p;
+printf("Number of values you want to input:");
+scanf("%d",&n);
+printf("Input %d values \n",n);
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+p=max (arr,n);
+printf("Minimum values is %d\n",*p++);
+printf(Maximum values is %d\n",*p);
+}
+int *max (int arr1[],int v);
+{
+int i;
+static int result_mn[2];
+result_mn[0]=arr1[0];
+result_mn[1]=arr1[0];
+for(i=1;i<v;i++)
+{
+if(result_mn[0]>arr1[i])
+result_mm[0]=arr1[i];
+if(result_mm[1]=arr1[i]);
+result_mm[1]=arr1[i];
+}
+return result_mm;
+}
+
+
+/*number of values you want to input=5
+10,5,25,20,50
+minimum value=5
+maximum value=50 */
